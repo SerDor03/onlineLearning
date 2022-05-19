@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru" >
 <head>
+    
 <meta charset="UTF-8">
 <title>Онлайн обучение технике безопасности</title>
 <link rel="stylesheet" type="text/css" href="style/style.css">
@@ -16,32 +17,168 @@
 </nav>
 
 </header>
+
+
+
+
+
 <main class="main">
 <div class="box">
 <div class="box-base">
+    <br>
+    <br>
+    <br>
 <h1>Обучение технике безопасности</h1>
 <p>По трудовому законодательству работодатель должен обучить сотрудников выполнять работу безопасно. Если проигнорировать эти требования, можно получить штраф или временный запрет на деятельность компании. Однако это не значит, что охрана труда на предприятии должна носить формальный характер. Поведение сотрудников напрямую влияет на безопасность на производстве. По сути, охрана труда на производстве — это обучение правильным действиям, которые исключают или уменьшают травмы и количество несчастных случаев в течение рабочего дня.
 
     Обучение охране труда для рабочего персонала может быть дистанционным. Это удобно для всех. Работники учатся в удобное время, а владелец предприятия выполняет предписания чиновников с минимальными затратами.</p>
 </div>
+
 <div class="box-side">
+    <br>
 <div style="text-align: center;"><img src="LogoBTS.png" width="100%"  class="sqr">
 
 </div>
+
 </div>
+</div>
+<h1 align="center">Техника безопаности</h1>
+
+<p align="center">Всегда соблюдайте технику безопасности!</p>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="slider/slider1.jpg" style="width:100%">
+      <div class="text"> </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="slider/slider2.jpg" style="width:100%">
+      <div class="text"> </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="slider/slider3.jpg" style="width:100%">
+      <div class="text"> </div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+<br>
+<br>
+<br>
+<br>
+<div class="content">
+
 </div>
 <div class="content">
-<div class="banners">
-<div class="banner"><a href="untitled-2.html">Инструкция по охране труда для слесаря-сантехника</a></div>
-<div class="banner"><a href="Untitled-4.html">Инструкция по охране труда при обслуживании сосудов, работающих под давлением</a></div>
-<div class="banner"><a href="Untitled-3.html">Инструкция по охране труда для бухгалтера</a></div>
-<div style="background-color: rgb(44, 44, 150);" class="banner"><a href="index.html">Пройти Тест по Охране труда</a></div>
-</div>
+    <div class="banners">
+    <div class="banner"><a href="untitled-2.html">Инструкция по охране труда для слесаря-сантехника</a></div>
+    <div class="banner"><a href="Untitled-4.html">Инструкция по охране труда при обслуживании сосудов, работающих под давлением</a></div>
+    <div class="banner"><a href="Untitled-3.html">Инструкция по охране труда для бухгалтера</a></div>
+    <div style="background-color: rgb(44, 44, 150);" class="banner"><a href="index.html">Пройти Тест по Охране труда</a></div>
 <div class="posts"  id="posts">
 <div class="post">
 
+    
 
 </main>
+
+
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Тепло<span>сети</span></h3>
+
+<br>
+<br>
+<br>
+        <p class="footer-company-name">МУП БГП БР "БЕЛОРЕЧЕНСКИЕ ТЕПЛОВЫЕ СЕТИ"</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>352630, КРАСНОДАРСКИЙ КРАЙ,</span> РАЙОН БЕЛОРЕЧЕНСКИЙ, ГОРОД БЕЛОРЕЧЕНСК, УЛИЦА ЛЕНИНА, ДОМ 31</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p> +7 (918) 427-21-47</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="ser.doroshenko03@gmail.com">ser.doroshenko03@gmail.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>О компании</span>
+          МУНИЦИПАЛЬНОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ БЕЛОРЕЧЕНСКОГО ГОРОДСКОГО ПОСЕЛЕНИЯ БЕЛОРЕЧЕНСКОГО РАЙОНА «БЕЛОРЕЧЕНСКИЕ ТЕПЛОВЫЕ СЕТИ»
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
 
 </body>
 </html>
